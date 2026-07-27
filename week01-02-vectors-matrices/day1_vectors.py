@@ -7,7 +7,7 @@ print("Bài 1 : |v| =", np.linalg.norm(v1))
 print()
 # Bài 2: Nhân vô hướng v = (5, -2), tính 3v
 v2 = np.array([5,-2])
-print("Bài 2 : v =", v1)
+print("Bài 2 : v =", v2)
 print("Bài 2 : 3v =", 3 * v2)
 print()
 # Bài 3: Cộng vector a=(1,4), b=(3,-1)
