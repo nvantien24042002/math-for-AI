@@ -9,8 +9,15 @@ print("Bài 1 : Scaling: A @ v = ",A_scale @ v)
 A_rot = np.array([[0,-1],
                     [1,0]])
 v2 = np.array([1,0])
-print("Bài 2: Rotation: A @ v = ",A_rot @ v)
+v3 = np.array([0,2])
+print("Bài 2: Rotation: A @ v = ",A_rot @ v2)
+print("Bài 2_1: Rotation: A @ v = ",A_rot @ v3)
 # Bài 3 : Reflection qua trục x 
 A_reflect = np.array([[1,0],[0,-1]])
-v3 = np.array([4,5])
-print("Bài 3 : Reflection: A @ v =", A_reflect @ v3)
+v4 = np.array([4,5])
+print("Bài 3 : Reflection: A @ v =", A_reflect @ v4)
+
+# Bài tập làm thêm 
+A_matrix = np.array([[3,0],[0,1]])
+v5 = np.array([2,5])
+print("Bài 5 : A_matrix @ v5 =", A_matrix @ v5)
